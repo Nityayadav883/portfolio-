@@ -13,7 +13,7 @@ const TALK_LINK = "https://www.linkedin.com/in/your-handle";
 
 // Bottom-left "Explore my work" button — point this at your work: GitHub,
 // a portfolio site, Behance/Dribbble, an Instagram grid, etc.
-const WORK_LINK = "https://beautiful-liger-ce83d2.netlify.app/";
+const WORK_LINK = "/work";
 
 const HEADLINE_LINES = ["Building", "Beyond", "Possible."];
 const INTRO_LINE =
