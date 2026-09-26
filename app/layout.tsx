@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Albert_Sans, Fragment_Mono } from "next/font/google";
+import { Albert_Sans, Fragment_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const albertSans = Albert_Sans({
@@ -12,6 +12,11 @@ const fragmentMono = Fragment_Mono({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-fragment-mono",
+  display: "swap",
+});
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
   display: "swap",
 });
 
@@ -32,7 +37,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${albertSans.variable} ${fragmentMono.variable}`}>
+    <html
+  lang="en"
+  className={`${albertSans.variable} ${fragmentMono.variable} ${spaceGrotesk.variable}`}
+>
       <body>{children}</body>
     </html>
   );
