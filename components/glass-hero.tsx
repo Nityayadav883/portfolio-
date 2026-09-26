@@ -9,7 +9,7 @@ const NAME = "NITYANAND YADAV";
 
 // Nav "Let's talk" button — point this at whichever profile/contact you want
 // people to reach you through (LinkedIn, X/Twitter, Instagram, mailto, etc.)
-const TALK_LINK = "https://www.linkedin.com/in/your-handle";
+const TALK_LINK = "https://wa.me/916388223572";
 
 // Bottom-left "Explore my work" button — point this at your work: GitHub,
 // a portfolio site, Behance/Dribbble, an Instagram grid, etc.
