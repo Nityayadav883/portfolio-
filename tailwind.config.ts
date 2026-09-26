@@ -14,6 +14,7 @@ const config: Config = {
       fontFamily: {
         display: ["var(--font-albert-sans)", "sans-serif"],
         mono: ["var(--font-fragment-mono)", "monospace"],
+        grotesk: ["var(--font-space-grotesk)", "sans-serif"],
       },
       transitionTimingFunction: {
         signature: "cubic-bezier(0.16, 1, 0.3, 1)",
